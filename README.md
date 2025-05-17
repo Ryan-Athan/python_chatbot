@@ -58,45 +58,45 @@ pythonchatbot/
 ## Installation
 1. **Clone the repository**
    
-bash
-   git clone https://github.com/yourusername/pythonchatbot.git
-   
+```bash
+   git clone git@github.com:Ryan-Athan/python_chatbot.git
+ ```  
 2. **Navigate to the project directory:**
-bash
+```bash
    cd pythonchatbot
-   
+``` 
 3. **Create a virtual environment and activate it**
    
-bash
+```bash
   python -m venv venv
   source venv/bin/activate  # On Windows: venv\Scripts\activate
-
+```
 4. **Install dependencies**
-
-bash
+   
+```bash
   pip install -r modules.txt
-
+```
 5. **Set up environment variables**
-Create a .env file in the root directory:
+*Create a .env file in the root directory:*
 
-bash
+```bash
   OPENAI_API_KEY=your_openai_api_key
-
+```
 
    
 ## Running the App
 
 **Start the server with Uvicorn:**
-bash
+```bash
     uvicorn app.main:app --reload
-   
+```  
 **Visit http://127.0.0.1:8000 in your browser to chat with your bot!**
 
 ## Building for Production
  **To run without --reload and in production mode:**
-bash
+```bash
  uvicorn app.main:app --host 0.0.0.0 --port 8000
- 
+``` 
 ## Contributing
 
 - Feel free to fork the repository and make pull requests. Contributions are always welcome! ✨
