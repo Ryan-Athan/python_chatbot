@@ -1,0 +1,1 @@
+https://fastapi.tiangolo.com/advanced/custom-response/?h=htmlresponse#return-an-htmlresponse-directly
